@@ -1,0 +1,110 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+body {
+  background-image: linear-gradient(to bottom right, white,  white, orange, orangered)
+}
+
+h1 {
+  -webkit-text-stroke: 3px orangered;
+  color: orange;
+  text-align: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 4cm;
+  font-family: 'Merriweather', serif;
+}
+.inicio{
+  text-align: right;
+  padding-right: 50px;
+  background-color: brown;
+  height: 200px;
+  padding: 50px;
+
+}
+/*navegacion*/
+nav {
+  height: 100px;
+  width: 100%;
+  background-color: gray;
+  font-size: xx-large;
+ 
+}
+nav ul{
+  min-width: 696px;
+	list-style: none;
+	padding: 20px 100px;
+  border: 10px solid blue;
+    
+}
+nav ul li {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  display: inline-block;
+} 
+nav a{
+  font-size: 40px;
+  color:blue;
+  text-decoration: none; 
+  margin: 30px ;
+  
+}
+nav a:hover{
+  color: orange;
+}
+
+h2 {
+  color: rgb(255, 30, 0);
+  font-size: xx-large;
+  font-family: 'Titillium Web', sans-serif;
+  margin-top: 50px;
+  }
+
+/*formato imagenes*/
+.bordesRedondeados {
+  border-radius: 300px;
+  margin-top: 50px;
+  margin-left: 50px
+}
+
+.bordesRedondeados2 {
+  border-radius: 20px;
+  margin-top: 50px;
+  margin-left: 50px;
+}
+.playa{
+  border-radius: 20px;
+   ;
+}
+
+/*formato texteos*/
+article {
+  color: black;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  text-transform: uppercase;
+}
+article a {
+  color: blue;
+}
+p {
+  color: darkgrblackay;
+  text-align: justify;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+form {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: large;
+}
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Titillium+Web:ital,wght@1,300&display=swap');
+
+/*footer*/
+
+footer{
+  text-align: right;
+}
+
+

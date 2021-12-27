@@ -1,0 +1,100 @@
+.navbar-nav {
+  text-align: center;
+  padding-left: 25%;
+  font-size: xx-large;
+}
+
+.body--propiedades {
+  background-image: url(../img/fondo2.jpg);
+  background-repeat: no-repeat;
+  background-size: 3000px auto;
+}
+
+.header__h1--propiedades {
+  -webkit-text-stroke: 3px orangered;
+  color: orange;
+  text-align: center;
+  font-size: 4cm;
+  font-family: "Merriweather", serif;
+}
+
+.container__h2--propiedades {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 40px;
+  color: orangered;
+}
+
+.container__article--propiedades {
+  color: #53360f;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.container__img--propiedades {
+  border-radius: 20px;
+  margin-top: 50px;
+  margin-left: 50px;
+}
+
+.container__img--propiedades2 {
+  border-radius: 300px;
+  margin-top: 50px;
+  margin-left: 50px;
+}
+
+.main__p--propiedadese {
+  color: blue;
+  font-size: x-large;
+  text-align: justify;
+}
+
+.main__h2--propiedadese {
+  color: orangered;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.main__h3--propiedadese {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.main__h2--propiedades2 {
+  color: orangered;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.bucle-1 {
+  background-color: #f7784a;
+}
+
+.bucle-2 {
+  background-color: #f66631;
+}
+
+.bucle-3 {
+  background-color: #f55319;
+}
+
+.bucle-4 {
+  background-color: #ea460a;
+}
+
+.bucle-5 {
+  background-color: #d13f09;
+}
+
+.main__p--propiedadesg {
+  color: blue;
+  font-size: x-large;
+  text-align: justify;
+}
+
+.main__h2--propiedadesg {
+  color: orangered;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.main__h2--propiedadest {
+  color: orangered;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+/*# sourceMappingURL=estilo.css.map */

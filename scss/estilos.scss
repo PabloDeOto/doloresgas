@@ -1,0 +1,89 @@
+$color1: orangered;
+$color2: orange;
+$color3: blue;
+$color4: rgb(83, 54, 15);
+$color5: rgb(248, 138, 98);
+$font: 'Gill Sans',
+sans-serif;
+
+.navbar-nav {
+    text-align: center;
+    padding-left: 25%;
+    font-size: xx-large;
+}
+
+.body--propiedades {
+    background-image: url(../img/fondo2.jpg);
+    background-repeat: no-repeat;
+    background-size: 3000px auto;
+}
+
+.header__h1--propiedades {
+    -webkit-text-stroke: 3px $color1;
+    color: $color2;
+    text-align: center;
+    font-size: 4cm;
+    font-family: 'Merriweather', serif;
+}
+
+.container__h2--propiedades {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 40px;
+    color: $color1;
+}
+
+.container__article--propiedades {
+    color: $color4;
+    font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.container__img--propiedades {
+    border-radius: 20px;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.container__img--propiedades2 {
+    border-radius: 300px;
+    margin-top: 50px;
+    margin-left: 50px
+}
+
+.main__p--propiedadese {
+    color: $color3;
+    font-size: x-large;
+    text-align: justify;
+}
+
+.main__h2--propiedadese {
+    color: $color1;
+    font-family: Georgia, "Times New Roman", Times, serif;
+}
+.main__h3--propiedadese {
+    font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.main__h2--propiedades2 {
+    color: $color1;
+    font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+@for $in from 1 through 5 {
+    .bucle-#{$in} {
+        background-color: darken($color5, $in * 5%);
+    }
+}
+.main__p--propiedadesg{
+    color: $color3;
+    font-size: x-large;
+    text-align: justify;
+}
+
+.main__h2--propiedadesg {
+    color: $color1;
+    font-family: Georgia, "Times New Roman", Times, serif;
+}
+.main__h2--propiedadest{
+    color: $color1;
+    font-family: Georgia, "Times New Roman", Times, serif;  
+}

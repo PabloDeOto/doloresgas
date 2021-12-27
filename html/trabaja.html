@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dolores Gas S.A.</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+    integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+  <link rel="stylesheet" href="../css/estilo.css" />
+  <link rel="shortcut icon" href="./img/favicon.jpg">
+  <meta name="description" content="Mejor distribuidor en Argentina de Garrafas de Gas a Domicilio. Contactanos al 0 800 666 6000.">
+  <meta name="Keywords" content="Garrafa, 10Kg; 45Kg, Envasado, Granel, Gas">s
+</head>
+
+<body class="body--propiedades">
+  <header class="header--propiedades">
+    <h1 class="header__h1--propiedades">Dolores Gas S.A.</h1>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="../index.html"> <img src="../img/logo.png" alt="Logo de la empresa"></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="./quienes.html">Empresa <span class="sr-only"></span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./sucursales.html">Sucursales</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-expanded="false">
+              Productos
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="./envasado.html">Envasado</a>
+              <a class="dropdown-item" href="./granel.html">Granel</a>
+          </li>
+        </ul>
+
+      </div>
+    </nav>
+  </header>
+
+  <main class="main--propiedadest">
+    <h2 class="main__h2--propiedadest">Formulario para trabajar con nosotros</h2>
+
+    <form action="enviar.php" method="post" enctype="application/x-www-form-urlencoded">
+      <label for="name">Nombre Completo</label>
+      <input type="text" name="name" placeholder="Aqui su nombre" required /><br />
+      <p></p>
+      <label for="email">E-mail</label>
+      <input type="email" name="email" required /><br />
+      <p></p>
+      <label for="age">Edad</label>
+      <input type="number" name="age" /><br />
+      <p></p>
+      <label for="birth">Fecha de nacimiento</label>
+      <input type="date" name="birth" /><br />
+      <p></p>
+      <label for="phone">Teléfono de contacto</label>
+      <input type="tel" name="tel" /><br />
+      <p></p>
+      <label for="">Genero: </label>
+      <label for="hombre">Hombre</label>
+      <input type="radio" name="sexo" value="hombre" id="hombre" />
+      <label for="mujer">Mujer</label>
+      <input type="radio" name="sexo" value="mujer" id="mujer" />
+      <label for="binario">No Binario</label>
+      <input type="radio" name="sexo" value="no binario" id="binario" /><br />
+      <p></p>
+      <label for="">Donde nos conociste</label>
+      <label for="radio">Radio</label>
+      <input type="checkbox" name="radio" value="radio" id="radio" />
+      <label for="tele">Televisión</label>
+      <input type="checkbox" name="tele" value="tele" id="tele" />
+      <label for="revista">Revista o Diario</label>
+      <input type="checkbox" name="revista" value="revista" id="revista" /><br />
+      <p></p>
+      <label for="">Adjunta tu CV en .pdf</label>
+      <input type="file" /> <br />
+      <p></p>
+      <label for="">Que tipo de puesto estas buscando</label>
+      <select name="Puestos">
+        <option value="1">Administrativo</option>
+        <option value="2">Sector Vehiculos</option>
+        <option value="3">Sector Compras</option>
+        <option value="4">Sector Facturación</option>
+        <option value="5">Sector RRHH</option>
+        <option value="6">Repartidor</option>
+        <option value="7">Recepción</option>
+      </select><br />
+      <p></p>
+      <input type="submit" value="enviar" />
+      <input type="reset" value="borrar" />
+    </form>
+  </main>
+
+
+<footer class="text-center p-4">
+    
+  <h4>Redes Sociales</h4>
+  <div class="iconos">
+    <a href="http:www.facebook.com/"><img src="../img/facelogo.png" alt="Logo Facebook" width="50px"></a>
+    <a href="http:www.twitter.com"><img src="../img/twitter-logo.svg" alt="Logo Twitter" width="50px"></a>
+</div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>
